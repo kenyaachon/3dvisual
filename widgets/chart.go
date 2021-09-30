@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	charts "github.com/cnguy/gopherjs-frappe-charts"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/prop"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
+	"github.com/hexops/vecty/prop"
 )
 
 // Chart represents a wrapper for Frapper Charts library.

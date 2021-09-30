@@ -5,8 +5,8 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
 )
 
 // RadioGroup is a group of checkradio widgets.

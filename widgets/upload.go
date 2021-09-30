@@ -1,13 +1,10 @@
 package widgets
 
 import (
-	"fmt"
-
-	"github.com/divan/whispervis/jsapi"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/event"
-	"github.com/gopherjs/vecty/prop"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
+	"github.com/hexops/vecty/event"
+	"github.com/hexops/vecty/prop"
 )
 
 // UploadWidget implements widget responsible for uploading JSON file.
@@ -70,11 +67,11 @@ func (u *UploadWidget) Render() vecty.ComponentOrHTML {
 // onUploadClick implements callback for "Upload" button clicked event.
 func (u *UploadWidget) onUploadClick(e *vecty.Event) {
 	// FIXME: run as a gorotine because GopherJS can't block JS thread in callback
-	go func() {
-		file := e.Target.Get("files").Index(0)
-		fmt.Println("File size:", file.Get("size"))
+	// go func() {
+	// 	file := e.Target.Get("files").Index(0)
+	// 	fmt.Println("File size:", file.Get("size"))
 
-		data := jsapi.NewFileReader().ReadAll(file)
-		u.handler(data)
-	}()
+	// 	data := jsapi.NewFileReader().ReadAll(file)
+	// 	u.handler(data)
+	// }()
 }

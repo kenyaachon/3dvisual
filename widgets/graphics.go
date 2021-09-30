@@ -2,8 +2,8 @@ package widgets
 
 import (
 	"github.com/divan/whispervis/storage"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
 )
 
 // Graphics represents graphics configuration widget.

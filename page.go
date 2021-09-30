@@ -6,9 +6,9 @@ import (
 	"github.com/divan/graphx/layout"
 	"github.com/divan/whispervis/network"
 	"github.com/divan/whispervis/widgets"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/event"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
+	"github.com/hexops/vecty/event"
 )
 
 // Page is our main page component.
@@ -29,9 +29,6 @@ type Page struct {
 	simulationWidget *widgets.Simulation
 	statsWidget      *widgets.Stats
 
-	statsPage *StatsPage
-	faqPage   *FAQPage
-
 	simulation *Simulation
 	activeView string
 }
@@ -51,8 +48,6 @@ func NewPage() *Page {
 	page.graphics = widgets.NewGraphics(page.webgl)
 	page.simulationWidget = widgets.NewSimulation("http://localhost:8084", page.startSimulation, page.replaySimulation, page.stepSimulation)
 	page.statsWidget = widgets.NewStats()
-	page.statsPage = NewStatsPage()
-	page.faqPage = NewFAQPage()
 	return page
 }
 
@@ -114,12 +109,6 @@ func (p *Page) Render() vecty.ComponentOrHTML {
 						),
 					),
 					p.webgl,
-				),
-				vecty.If(p.activeView == ViewStats,
-					p.statsPage,
-				),
-				vecty.If(p.activeView == ViewFAQ,
-					p.faqPage,
 				),
 				vecty.If(!p.loaded,
 					elem.Div(
@@ -190,14 +179,6 @@ func (p *Page) startSimulation() (int, error) {
 	if err != nil {
 		return 0, err
 	}
-
-	// calculate stats and update stats widget
-	stats := p.RecalculateStats(sim.plog)
-	p.statsWidget.Update(stats)
-
-	sim.stats = stats
-	p.simulation = sim
-	p.statsPage.UpdateStats(p.network.Current().Data, p.simulation.plog)
 
 	p.replaySimulation()
 	return len(sim.plog.Timestamps), nil

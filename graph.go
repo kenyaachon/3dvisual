@@ -3,7 +3,7 @@ package main
 import (
 	"runtime"
 
-	"github.com/gopherjs/vecty"
+	"github.com/hexops/vecty"
 )
 
 // UpdateGraph starts graph layout simulation.

@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/gopherjs/vecty"
+	"github.com/hexops/vecty"
 )
 
 const (

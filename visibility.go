@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/gopherjs/vecty"
+	"github.com/hexops/vecty"
 )
 
 // VisibilityListener implements listener for visibilitychange events.

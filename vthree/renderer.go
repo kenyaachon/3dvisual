@@ -3,8 +3,8 @@ package vthree
 import (
 	"github.com/divan/three"
 	"github.com/gopherjs/gopherjs/js"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
 )
 
 type WebGLRenderer struct {

@@ -2,9 +2,9 @@ package widgets
 
 import (
 	"github.com/divan/graphx/layout"
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/event"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
+	"github.com/hexops/vecty/event"
 )
 
 // DefaultForcesConfig specifies default configuration for physics simulation.

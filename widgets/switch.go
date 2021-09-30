@@ -5,10 +5,10 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
-	"github.com/gopherjs/vecty/event"
-	"github.com/gopherjs/vecty/prop"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
+	"github.com/hexops/vecty/event"
+	"github.com/hexops/vecty/prop"
 )
 
 // Switch is a wrapper around checkbox-like switch.

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gopherjs/vecty"
-	"github.com/gopherjs/vecty/elem"
+	"github.com/hexops/vecty"
+	"github.com/hexops/vecty/elem"
 )
 
 // Loader implements prograss-bar style loader widget.
