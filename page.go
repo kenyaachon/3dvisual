@@ -9,6 +9,7 @@ import (
 	"github.com/hexops/vecty"
 	"github.com/hexops/vecty/elem"
 	"github.com/hexops/vecty/event"
+	"github.com/kenyaachon/3dvisual/widgets"
 )
 
 // Page is our main page component.

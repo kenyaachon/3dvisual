@@ -1,4 +1,4 @@
-module 3dvisual
+module github.com/kenyaachon/3dvisual
 
 go 1.17
 
