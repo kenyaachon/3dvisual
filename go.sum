@@ -6,6 +6,8 @@ github.com/divan/simulation v0.0.0-20181221164022-1de21acd10f8 h1:WDkrLIf8bAaGuE
 github.com/divan/simulation v0.0.0-20181221164022-1de21acd10f8/go.mod h1:/Svf4tInOhulozBvTDHTxdyQlAu2eZcKDkPIUua+3i8=
 github.com/divan/three v0.0.0-20190518222012-e7fb2420829c h1:oh/oqyVbEul3NukO6HwiiL81ktOTG3B7Q3tsCuoNJNY=
 github.com/divan/three v0.0.0-20190518222012-e7fb2420829c/go.mod h1:mvdRimXSTqMErVt0/gKwmuW1YpM0bJNKEKPnMC4qols=
+github.com/divan/whispervis v0.0.0-20181207171319-c395bc39dd76 h1:bRe5ssvVv3KEmYNfMJJrBk6jQ/FhmDbMbE5B9+nKY0c=
+github.com/divan/whispervis v0.0.0-20181207171319-c395bc39dd76/go.mod h1:Iongq7gKmWefKv7AZNTMeyozh1kHPs/442fl8IJjpgY=
 github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/gonum/blas v0.0.0-20181208220705-f22b278b28ac h1:Q0Jsdxl5jbxouNs1TQYt0gxesYMU4VXRbsTlgDloZ50=

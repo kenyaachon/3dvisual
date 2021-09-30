@@ -7,6 +7,7 @@ require (
 	github.com/divan/graphx v0.0.0-20181230193938-8b596c03938a // indirect
 	github.com/divan/simulation v0.0.0-20181221164022-1de21acd10f8 // indirect
 	github.com/divan/three v0.0.0-20190518222012-e7fb2420829c // indirect
+	github.com/divan/whispervis v0.0.0-20181207171319-c395bc39dd76 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/gonum/blas v0.0.0-20181208220705-f22b278b28ac // indirect
 	github.com/gonum/floats v0.0.0-20181209220543-c233463c7e82 // indirect

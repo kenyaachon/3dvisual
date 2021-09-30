@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 
+	"github.com/kenyaachon/3dvisual/widgets"
+
 	"github.com/divan/graphx/layout"
 	"github.com/divan/whispervis/network"
 	"github.com/divan/whispervis/widgets"
 	"github.com/hexops/vecty"
 	"github.com/hexops/vecty/elem"
 	"github.com/hexops/vecty/event"
-	"github.com/kenyaachon/3dvisual/widgets"
 )
 
 // Page is our main page component.
